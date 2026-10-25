@@ -5,6 +5,8 @@ Express and MySQL 8.4 only**. Based on the HRCMS project report, with four conne
 role workspaces, room allocation, complaint workflow, history, feedback, reporting
 and administrator tools.
 
+![Haven overview](docs/screenshots/overview.png)
+
 ## Requirements
 
 - Node.js 22.12+ (developed with Node.js 24)
@@ -50,7 +52,9 @@ node scripts/local-mysql.mjs --stop
 3. Configure your MySQL host/port and a new database name. Choose an unused
    application username and password. Set `DB_ADMIN_USER` and
    `DB_ADMIN_PASSWORD` to an account permitted to create the database and grant
-   application privileges.
+   application privileges. For a remote/container server, set `DB_APP_HOST` to
+   the host MySQL sees for your application; local setup defaults to localhost
+   and 127.0.0.1. CI permits its disposable container bridge connection explicitly.
 4. Set `JWT_SECRET` to a random string of at least 32 characters.
 5. Run `npm run db:setup`, then `npm run db:seed` for demo data.
 6. Run `npm run build`, then `npm start`.
@@ -134,7 +138,8 @@ GitHub Actions runs the build and integration suite with a MySQL 8.4 service.
 ## Database and API design
 
 See [database documentation](database/README.md) for schema details and
-[API reference](docs/API.md) for endpoints.
+[API reference](docs/API.md) for endpoints. The [validation record](docs/VALIDATION.md)
+describes the automated and browser checks performed.
 
 ```
 backend/

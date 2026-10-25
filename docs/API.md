@@ -29,6 +29,7 @@ return `{message, data?}`. Errors return `{error}` with HTTP 400, 401, 403, 404,
 | POST   | /complaints/:id/feedback | Owner student: `{rating,comments?}`                                    |
 
 List filters: `search`, `status`, `priority`, `category_id`, `overdue=true`, `page`.
+`status=COMPLETED` includes both RESOLVED and CLOSED complaints.
 The response includes `total`, `page`, `page_size`. Search is parameterized.
 Staff see their own assignments; wardens see their block; students see their own
 complaints; admins see all. Out-of-scope complaint IDs return 404.

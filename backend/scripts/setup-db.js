@@ -54,21 +54,20 @@ export async function setupDatabase(name = config.db.database) {
       config.db.user !== process.env.DB_ADMIN_USER
     ) {
       // Credentials are sent as values, never interpolated into shell commands.
-      await conn.query('CREATE USER IF NOT EXISTS ?@? IDENTIFIED BY ?', [
-        config.db.user,
-        '127.0.0.1',
-        config.db.password,
-      ]);
-      await conn.query('CREATE USER IF NOT EXISTS ?@? IDENTIFIED BY ?', [
-        config.db.user,
-        'localhost',
-        config.db.password,
-      ]);
-      for (const host of ['127.0.0.1', 'localhost'])
+      const hosts = process.env.DB_APP_HOST
+        ? [process.env.DB_APP_HOST]
+        : ['127.0.0.1', 'localhost'];
+      for (const host of hosts) {
+        await conn.query('CREATE USER IF NOT EXISTS ?@? IDENTIFIED BY ?', [
+          config.db.user,
+          host,
+          config.db.password,
+        ]);
         await conn.query(
           `GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON \`${name}\`.* TO ?@?`,
           [config.db.user, host],
         );
+      }
     }
     console.log(
       `Created ${name}: 13 tables, 4 views, 6 triggers, 5 procedures.`,

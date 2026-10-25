@@ -28,6 +28,8 @@ jobs:
       DB_PASSWORD: ci-app-only
       DB_ADMIN_USER: root
       DB_ADMIN_PASSWORD: ci-root-only
+      # The runner reaches the disposable MySQL container over its bridge network.
+      DB_APP_HOST: '%'
       JWT_SECRET: ci-only-secret-string-at-least-32-characters-long
     steps:
       - uses: actions/checkout@v4
