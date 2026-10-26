@@ -7,7 +7,7 @@ Server 8.4.9.
 
 - `npm run check`: backend syntax checks and frontend production build passed.
 - `npm test`: 31 tests passed against a newly created real MySQL database.
-- Confirmed exactly 13 base tables, 4 views, 6 triggers and 5 stored procedures.
+- Confirmed exactly 13 base tables, 4 views, 15 triggers and 5 stored procedures.
 - Concurrency tests verified one allocation for the last bed and one complaint
   for simultaneous submissions with the same room/category.
 - Role/record ownership tests, admin editing safeguards, feedback closure,

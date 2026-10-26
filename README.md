@@ -62,7 +62,7 @@ node scripts/local-mysql.mjs --stop
 `db:setup` refuses to overwrite a database that already has tables. `db:seed`
 refuses to overwrite existing users. Neither command resets an existing database.
 Database scripts are also provided in `database/`; select an empty database before
-running `01_schema.sql`, followed by `02_logic.sql` in MySQL Workbench.
+running `01_schema.sql`, `02_logic.sql` and `03_integrity_guards.sql` in MySQL Workbench.
 
 ## Demo accounts
 

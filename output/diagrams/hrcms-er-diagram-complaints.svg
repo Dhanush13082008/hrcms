@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5000" height="3000" viewBox="0 0 5000 3000">
+<rect width="100%" height="100%" fill="#f5f8f6"/>
+<defs><marker id="arr" markerWidth="16" markerHeight="16" refX="13" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 Z" fill="#527d68"/></marker></defs>
+<text x="110" y="100" font-family="Arial,Helvetica,sans-serif" font-size="56" fill="#173e33" font-weight="bold">HRCMS ER DIAGRAM - COMPLAINT WORKFLOW</text>
+<text x="114" y="155" font-family="Arial,Helvetica,sans-serif" font-size="26" fill="#5b7165" font-weight="normal">Page 2 of 2 | Categories, assigned workers, workflow history, and feedback</text>
+<polyline points="1780,1300 1780,1130 600,1130 600,575" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="1158" y="1086" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="1170" y="1113" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : many</text>
+<polyline points="2110,1300 2110,1180 1820,1180 1820,575" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="1888" y="1136" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="1900" y="1163" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : many</text>
+<polyline points="2730,1300 2730,1120 3040,1120 3040,575" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="2768" y="1076" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="2780" y="1103" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : many</text>
+<polyline points="3220,1300 3500,1160 4300,1160 4300,575" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="3498" y="1116" width="349" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="3510" y="1143" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : many (optional staff)</text>
+<polyline points="3760,470 3600,650 3500,650" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="3548" y="601" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="3560" y="628" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">many : 1</text>
+<polyline points="1325,2250 1325,2140 2100,2140 2100,1998" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="1588" y="2096" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="1600" y="2123" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : many</text>
+<polyline points="3675,2250 3675,2140 2920,2140 2920,1998" fill="none" stroke="#527d68" stroke-width="6" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="3208" y="2096" width="128" height="36" rx="8" fill="#f5f8f6" stroke="#ccdad2" stroke-width="2"/>
+<text x="3220" y="2123" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#173e33" font-weight="bold">1 : 0..1</text>
+<rect x="100" y="330" width="1000" height="244" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="100" y="330" width="1000" height="76" rx="16" fill="#173e33"/><rect x="100" y="390" width="1000" height="18" fill="#173e33"/>
+<text x="122" y="381" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">student (page 1 reference)</text>
+<text x="122" y="447" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="bold">PK  student_id</text>
+<text x="122" y="489" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">reg_no</text>
+<text x="122" y="531" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">gender</text>
+<line x1="118" y1="568" x2="1082" y2="568" stroke="#ccdad2" stroke-width="2"/>
+<text x="122" y="596" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">Full entity is on page 1</text>
+<rect x="1320" y="330" width="1000" height="244" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="1320" y="330" width="1000" height="76" rx="16" fill="#173e33"/><rect x="1320" y="390" width="1000" height="18" fill="#173e33"/>
+<text x="1342" y="381" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">room (page 1 reference)</text>
+<text x="1342" y="447" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="bold">PK  room_id</text>
+<text x="1342" y="489" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  block_id</text>
+<text x="1342" y="531" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">UQ  room_number</text>
+<line x1="1338" y1="568" x2="2302" y2="568" stroke="#ccdad2" stroke-width="2"/>
+<text x="1342" y="596" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">Full entity is on page 1</text>
+<rect x="2540" y="330" width="1000" height="328" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="2540" y="330" width="1000" height="76" rx="16" fill="#173e33"/><rect x="2540" y="390" width="1000" height="18" fill="#173e33"/>
+<text x="2562" y="381" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">complaint_category</text>
+<text x="2562" y="447" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="bold">PK  category_id INT AUTO_INCREMENT</text>
+<text x="2562" y="489" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">UQ  category_name VARCHAR(40)</text>
+<text x="2562" y="531" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">default_priority ENUM(LOW, MEDIUM, HIGH, URGENT)</text>
+<text x="2562" y="573" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">sla_hours SMALLINT</text>
+<text x="2562" y="615" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">is_active BOOLEAN</text>
+<line x1="2558" y1="652" x2="3522" y2="652" stroke="#ccdad2" stroke-width="2"/>
+<text x="2562" y="680" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">SLA CHECK: &gt; 0</text>
+<rect x="3760" y="330" width="1050" height="244" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="3760" y="330" width="1050" height="76" rx="16" fill="#173e33"/><rect x="3760" y="390" width="1050" height="18" fill="#173e33"/>
+<text x="3782" y="381" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">maintenance_staff (page 1 reference)</text>
+<text x="3782" y="447" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">PK/FK  staff_id -&gt; users</text>
+<text x="3782" y="489" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  category_id -&gt; complaint_category</text>
+<text x="3782" y="531" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  block_id -&gt; hostel_block</text>
+<line x1="3778" y1="568" x2="4792" y2="568" stroke="#ccdad2" stroke-width="2"/>
+<text x="3782" y="596" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">Full entity is on page 1</text>
+<rect x="1700" y="1300" width="1600" height="622" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="1700" y="1300" width="1600" height="76" rx="16" fill="#173e33"/><rect x="1700" y="1360" width="1600" height="18" fill="#173e33"/>
+<text x="1722" y="1351" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">complaint</text>
+<text x="1722" y="1417" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="bold">PK  complaint_id INT AUTO_INCREMENT</text>
+<text x="1722" y="1459" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  student_id INT -&gt; student</text>
+<text x="1722" y="1501" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  room_id INT -&gt; room</text>
+<text x="1722" y="1543" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  category_id INT -&gt; complaint_category</text>
+<text x="1722" y="1585" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">title VARCHAR(120)</text>
+<text x="1722" y="1627" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">description TEXT</text>
+<text x="1722" y="1669" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">priority ENUM(LOW, MEDIUM, HIGH, URGENT)</text>
+<text x="1722" y="1711" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">status ENUM(OPEN, ASSIGNED, IN_PROGRESS, RESOLVED, CLOSED, REJECTED)</text>
+<text x="1722" y="1753" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  assigned_staff_id INT -&gt; maintenance_staff NULL</text>
+<text x="1722" y="1795" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</text>
+<text x="1722" y="1837" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">updated_at TIMESTAMP ON UPDATE</text>
+<text x="1722" y="1879" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">resolved_at TIMESTAMP NULL</text>
+<line x1="1718" y1="1916" x2="3282" y2="1916" stroke="#ccdad2" stroke-width="2"/>
+<text x="1722" y="1944" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">Assignment requires matching block + category; title &gt;= 5 chars</text>
+<rect x="800" y="2250" width="1050" height="412" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="800" y="2250" width="1050" height="76" rx="16" fill="#173e33"/><rect x="800" y="2310" width="1050" height="18" fill="#173e33"/>
+<text x="822" y="2301" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">complaint_log</text>
+<text x="822" y="2367" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="bold">PK  log_id INT AUTO_INCREMENT</text>
+<text x="822" y="2409" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  complaint_id INT -&gt; complaint</text>
+<text x="822" y="2451" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">old_status VARCHAR(15) NULL</text>
+<text x="822" y="2493" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">new_status VARCHAR(15)</text>
+<text x="822" y="2535" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">FK  changed_by INT -&gt; users NULL</text>
+<text x="822" y="2577" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">remark VARCHAR(255) NULL</text>
+<text x="822" y="2619" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">changed_at TIMESTAMP</text>
+<line x1="818" y1="2656" x2="1832" y2="2656" stroke="#ccdad2" stroke-width="2"/>
+<text x="822" y="2684" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">Automatic audit history</text>
+<rect x="3150" y="2250" width="1050" height="286" rx="18" fill="#ffffff" stroke="#1e684f" stroke-width="4"/>
+<rect x="3150" y="2250" width="1050" height="76" rx="16" fill="#173e33"/><rect x="3150" y="2310" width="1050" height="18" fill="#173e33"/>
+<text x="3172" y="2301" font-family="Arial,Helvetica,sans-serif" font-size="34" fill="#ffffff" font-weight="bold">feedback</text>
+<text x="3172" y="2367" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#a8582e" font-weight="bold">PK/FK  complaint_id INT -&gt; complaint</text>
+<text x="3172" y="2409" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">rating TINYINT</text>
+<text x="3172" y="2451" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">comments VARCHAR(500) NULL</text>
+<text x="3172" y="2493" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#1e684f" font-weight="normal">submitted_at TIMESTAMP</text>
+<line x1="3168" y1="2530" x2="4182" y2="2530" stroke="#ccdad2" stroke-width="2"/>
+<text x="3172" y="2558" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#5b7165" font-weight="normal">One per complaint; rating 1..5</text>
+<text x="110" y="2935" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#5b7165" font-weight="normal">Student, room, and maintenance_staff boxes are references to full entities on page 1.</text>
+</svg>

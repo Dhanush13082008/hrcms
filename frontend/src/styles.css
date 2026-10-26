@@ -1014,6 +1014,12 @@ select:disabled {
   gap: 25px;
   margin-bottom: 28px;
 }
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
 .page-heading p {
   font-size: 11px;
   color: #76846c;
@@ -3074,6 +3080,14 @@ td strong {
     margin-top: 8px;
   }
   .page-heading > .btn {
+    min-height: 38px;
+    font-size: 11px;
+  }
+  .page-heading > .button-row {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .button-row .btn {
     min-height: 38px;
     font-size: 11px;
   }

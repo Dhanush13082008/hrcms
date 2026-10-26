@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3900" height="2850" viewBox="0 0 3900 2850">
+<rect width="3900" height="2850" fill="#f5f8f6"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M 0 0 L 12 6 L 0 12 z" fill="#477661"/></marker></defs>
+<text x="90" y="75" font-family="Arial, Helvetica, sans-serif" font-size="52px" font-weight="bold" fill="#143c31">HRCMS RELATIONAL ER DIAGRAM</text>
+<text x="92" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23px" font-weight="normal" fill="#5d7166">13 tables | primary keys (PK) | foreign keys (FK) | unique keys (UQ) | generated fields (GEN)</text>
+<polyline points="470,520 470,440 1540,440 1540,330" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1492" y="414" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1501" y="435" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="1370,520 1370,430 1735,430 1735,330" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1687" y="404" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1696" y="425" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : 0..1</text>
+<polyline points="2280,520 2280,390 2220,330" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2232" y="364" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2241" y="385" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : 0..1</text>
+<polyline points="3255,520 3255,430 2360,430 2360,330" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2312" y="404" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2321" y="425" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : 0..1</text>
+<polyline points="990,1390 1030,1135 2020,1135 2020,760" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1972" y="1109" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1981" y="1130" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">0..1 : 0..1</text>
+<polyline points="1910,1415 1850,1160 520,1160 520,1260" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="472" y="1134" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="481" y="1155" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="1910,1460 1880,1460 1850,1460" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1832" y="1434" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1841" y="1455" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="2730,720 2650,1085 900,1085 900,1380 990,1380" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="852" y="1059" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="861" y="1080" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="2870,1390 2770,1110 1750,1110 1750,820" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1702" y="1084" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1711" y="1105" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="2870,1460 2810,1460" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2762" y="1434" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2771" y="1455" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="1050,2150 1000,1960 900,1960 900,790 920,790" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="852" y="1934" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="861" y="1955" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="1800,2080 1800,1920 1880,1920 1880,1630 1910,1630" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1832" y="1894" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="1841" y="1915" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="1050,2170 990,2170" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="942" y="2144" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="951" y="2165" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="2250,2080 2340,1940 2680,1940 2680,870 3000,870 3000,770" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2632" y="844" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2641" y="865" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="2380,2200 2330,2200" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2282" y="2174" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2291" y="2195" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : N</text>
+<polyline points="3290,2200 2810,2200 2330,2200" fill="none" stroke="#668c79" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="2762" y="2174" width="96" height="30" rx="8" fill="#f5f8f6" stroke="#cbdad1"/>
+<text x="2771" y="2195" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="bold" fill="#143c31">1 : 0..1</text>
+<rect x="1510" y="90" width="880" height="311" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M1524 90 H2376 Q2390 90 2390 104 V146 H1510 V104 Q1510 90 1524 90" fill="#143c31"/>
+<text x="1530" y="128" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">users</text>
+<text x="1528" y="168" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  user_id INT AUTO_INCREMENT</text>
+<text x="1528" y="199" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">full_name VARCHAR(100) NOT NULL</text>
+<text x="1528" y="230" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ  email VARCHAR(120) NOT NULL</text>
+<text x="1528" y="261" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">password_hash CHAR(60) NOT NULL</text>
+<text x="1528" y="292" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">role ENUM(STUDENT,WARDEN,STAFF,ADMIN)</text>
+<text x="1528" y="323" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">is_active BOOLEAN DEFAULT TRUE</text>
+<text x="1528" y="354" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">created_at TIMESTAMP</text>
+<line x1="1524" y1="380" x2="2376" y2="380" stroke="#cbdad1" stroke-width="1"/>
+<text x="1528" y="403" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">UNIQUE email; role is immutable</text>
+<rect x="90" y="520" width="760" height="156" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M104 520 H836 Q850 520 850 534 V576 H90 V534 Q90 520 104 520" fill="#143c31"/>
+<text x="110" y="558" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">user_phone</text>
+<text x="108" y="598" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">PK/FK  user_id INT -&gt; users</text>
+<text x="108" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  phone_no VARCHAR(15)</text>
+<line x1="104" y1="655" x2="836" y2="655" stroke="#cbdad1" stroke-width="1"/>
+<text x="108" y="678" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">CHECK phone format; composite PK</text>
+<rect x="920" y="520" width="900" height="311" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M934 520 H1806 Q1820 520 1820 534 V576 H920 V534 Q920 520 934 520" fill="#143c31"/>
+<text x="940" y="558" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">student</text>
+<text x="938" y="598" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">PK/FK  student_id INT -&gt; users</text>
+<text x="938" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ  reg_no VARCHAR(15)</text>
+<text x="938" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">gender ENUM(MALE,FEMALE)</text>
+<text x="938" y="691" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">department VARCHAR(60)</text>
+<text x="938" y="722" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">year_of_study TINYINT</text>
+<text x="938" y="753" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">guardian_name VARCHAR(100) NULL</text>
+<text x="938" y="784" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">guardian_phone VARCHAR(15) NULL</text>
+<line x1="934" y1="810" x2="1806" y2="810" stroke="#cbdad1" stroke-width="1"/>
+<text x="938" y="833" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">CHECK study year 1..5</text>
+<rect x="1900" y="520" width="760" height="187" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M1914 520 H2646 Q2660 520 2660 534 V576 H1900 V534 Q1900 520 1914 520" fill="#143c31"/>
+<text x="1920" y="558" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">warden</text>
+<text x="1918" y="598" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">PK/FK  warden_id INT -&gt; users</text>
+<text x="1918" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">designation VARCHAR(50)</text>
+<text x="1918" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">office_room VARCHAR(20) NULL</text>
+<line x1="1914" y1="686" x2="2646" y2="686" stroke="#cbdad1" stroke-width="1"/>
+<text x="1918" y="709" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">one optional block assignment</text>
+<rect x="2730" y="520" width="1050" height="218" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M2744 520 H3766 Q3780 520 3780 534 V576 H2730 V534 Q2730 520 2744 520" fill="#143c31"/>
+<text x="2750" y="558" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">maintenance_staff</text>
+<text x="2748" y="598" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">PK/FK  staff_id INT -&gt; users</text>
+<text x="2748" y="629" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  category_id INT -&gt; complaint_category</text>
+<text x="2748" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  block_id INT -&gt; hostel_block</text>
+<text x="2748" y="691" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">shift ENUM(MORNING,EVENING,NIGHT)</text>
+<line x1="2744" y1="717" x2="3766" y2="717" stroke="#cbdad1" stroke-width="1"/>
+<text x="2748" y="740" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">worker specialty + block</text>
+<rect x="90" y="1260" width="900" height="280" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M104 1260 H976 Q990 1260 990 1274 V1316 H90 V1274 Q90 1260 104 1260" fill="#143c31"/>
+<text x="110" y="1298" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">hostel_block</text>
+<text x="108" y="1338" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  block_id INT AUTO_INCREMENT</text>
+<text x="108" y="1369" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ  block_name VARCHAR(30)</text>
+<text x="108" y="1400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">gender_type ENUM(MALE,FEMALE)</text>
+<text x="108" y="1431" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">total_floors TINYINT</text>
+<text x="108" y="1462" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ/FK  warden_id INT -&gt; warden NULL</text>
+<text x="108" y="1493" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">is_active BOOLEAN</text>
+<line x1="104" y1="1519" x2="976" y2="1519" stroke="#cbdad1" stroke-width="1"/>
+<text x="108" y="1542" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">UNIQUE warden_id; 1..20 floors</text>
+<rect x="1050" y="1260" width="800" height="218" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M1064 1260 H1836 Q1850 1260 1850 1274 V1316 H1050 V1274 Q1050 1260 1064 1260" fill="#143c31"/>
+<text x="1070" y="1298" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">room_type</text>
+<text x="1068" y="1338" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  type_code VARCHAR(10)</text>
+<text x="1068" y="1369" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">capacity TINYINT</text>
+<text x="1068" y="1400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">annual_fee DECIMAL(10,2)</text>
+<text x="1068" y="1431" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">is_active BOOLEAN</text>
+<line x1="1064" y1="1457" x2="1836" y2="1457" stroke="#cbdad1" stroke-width="1"/>
+<text x="1068" y="1480" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">capacity 1..6; nonnegative fee</text>
+<rect x="1910" y="1260" width="900" height="342" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M1924 1260 H2796 Q2810 1260 2810 1274 V1316 H1910 V1274 Q1910 1260 1924 1260" fill="#143c31"/>
+<text x="1930" y="1298" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">room</text>
+<text x="1928" y="1338" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  room_id INT AUTO_INCREMENT</text>
+<text x="1928" y="1369" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  block_id INT -&gt; hostel_block</text>
+<text x="1928" y="1400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ  room_number VARCHAR(10)</text>
+<text x="1928" y="1431" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">floor_no TINYINT</text>
+<text x="1928" y="1462" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  type_code VARCHAR(10) -&gt; room_type</text>
+<text x="1928" y="1493" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">has_ac BOOLEAN</text>
+<text x="1928" y="1524" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">status ENUM(ACTIVE,UNDER_MAINTENANCE)</text>
+<text x="1928" y="1555" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">is_active BOOLEAN</text>
+<line x1="1924" y1="1581" x2="2796" y2="1581" stroke="#cbdad1" stroke-width="1"/>
+<text x="1928" y="1604" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">UNIQUE (block_id, room_number)</text>
+<rect x="2870" y="1260" width="910" height="342" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M2884 1260 H3766 Q3780 1260 3780 1274 V1316 H2870 V1274 Q2870 1260 2884 1260" fill="#143c31"/>
+<text x="2890" y="1298" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">room_allocation</text>
+<text x="2888" y="1338" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  allocation_id INT AUTO_INCREMENT</text>
+<text x="2888" y="1369" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  student_id INT -&gt; student</text>
+<text x="2888" y="1400" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  room_id INT -&gt; room</text>
+<text x="2888" y="1431" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">academic_year CHAR(7)</text>
+<text x="2888" y="1462" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">allocated_on DATE</text>
+<text x="2888" y="1493" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">vacated_on DATE NULL</text>
+<text x="2888" y="1524" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">status ENUM(ACTIVE,VACATED)</text>
+<text x="2888" y="1555" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">GEN/UQ  active_flag TINYINT STORED</text>
+<line x1="2884" y1="1581" x2="3766" y2="1581" stroke="#cbdad1" stroke-width="1"/>
+<text x="2888" y="1604" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">UNIQUE (student_id, active_flag); 1 active room</text>
+<rect x="90" y="2080" width="900" height="249" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M104 2080 H976 Q990 2080 990 2094 V2136 H90 V2094 Q90 2080 104 2080" fill="#143c31"/>
+<text x="110" y="2118" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">complaint_category</text>
+<text x="108" y="2158" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  category_id INT AUTO_INCREMENT</text>
+<text x="108" y="2189" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">UQ  category_name VARCHAR(40)</text>
+<text x="108" y="2220" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">default_priority ENUM(LOW,MEDIUM,HIGH,URGENT)</text>
+<text x="108" y="2251" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">sla_hours SMALLINT</text>
+<text x="108" y="2282" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">is_active BOOLEAN</text>
+<line x1="104" y1="2308" x2="976" y2="2308" stroke="#cbdad1" stroke-width="1"/>
+<text x="108" y="2331" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">SLA must be &gt; 0</text>
+<rect x="1050" y="2080" width="1280" height="466" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M1064 2080 H2316 Q2330 2080 2330 2094 V2136 H1050 V2094 Q1050 2080 1064 2080" fill="#143c31"/>
+<text x="1070" y="2118" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">complaint</text>
+<text x="1068" y="2158" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  complaint_id INT AUTO_INCREMENT</text>
+<text x="1068" y="2189" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  student_id INT -&gt; student</text>
+<text x="1068" y="2220" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  room_id INT -&gt; room</text>
+<text x="1068" y="2251" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  category_id INT -&gt; complaint_category</text>
+<text x="1068" y="2282" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">title VARCHAR(120)</text>
+<text x="1068" y="2313" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">description TEXT</text>
+<text x="1068" y="2344" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">priority ENUM(LOW,MEDIUM,HIGH,URGENT)</text>
+<text x="1068" y="2375" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">status ENUM(OPEN,ASSIGNED,IN_PROGRESS,RESOLVED,CLOSED,REJECTED)</text>
+<text x="1068" y="2406" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  assigned_staff_id INT -&gt; maintenance_staff NULL</text>
+<text x="1068" y="2437" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">created_at TIMESTAMP</text>
+<text x="1068" y="2468" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">updated_at TIMESTAMP ON UPDATE</text>
+<text x="1068" y="2499" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">resolved_at TIMESTAMP NULL</text>
+<line x1="1064" y1="2525" x2="2316" y2="2525" stroke="#cbdad1" stroke-width="1"/>
+<text x="1068" y="2548" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">title &gt;= 5 chars; indexes on status and room/category/status</text>
+<rect x="2380" y="2080" width="850" height="311" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M2394 2080 H3216 Q3230 2080 3230 2094 V2136 H2380 V2094 Q2380 2080 2394 2080" fill="#143c31"/>
+<text x="2400" y="2118" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">complaint_log</text>
+<text x="2398" y="2158" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#1e684f">PK  log_id INT AUTO_INCREMENT</text>
+<text x="2398" y="2189" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  complaint_id INT -&gt; complaint</text>
+<text x="2398" y="2220" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">old_status VARCHAR(15) NULL</text>
+<text x="2398" y="2251" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">new_status VARCHAR(15)</text>
+<text x="2398" y="2282" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">FK  changed_by INT -&gt; users NULL</text>
+<text x="2398" y="2313" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">remark VARCHAR(255) NULL</text>
+<text x="2398" y="2344" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">changed_at TIMESTAMP</text>
+<line x1="2394" y1="2370" x2="3216" y2="2370" stroke="#cbdad1" stroke-width="1"/>
+<text x="2398" y="2393" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">audit trail; delete complaint cascades</text>
+<rect x="3290" y="2080" width="540" height="218" rx="14" fill="#ffffff" stroke="#1e684f" stroke-width="3"/>
+<path d="M3304 2080 H3816 Q3830 2080 3830 2094 V2136 H3290 V2094 Q3290 2080 3304 2080" fill="#143c31"/>
+<text x="3310" y="2118" font-family="Arial, Helvetica, sans-serif" font-size="28px" font-weight="bold" fill="#ffffff">feedback</text>
+<text x="3308" y="2158" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="bold" fill="#ad6234">PK/FK  complaint_id INT -&gt; complaint</text>
+<text x="3308" y="2189" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">rating TINYINT</text>
+<text x="3308" y="2220" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">comments VARCHAR(500) NULL</text>
+<text x="3308" y="2251" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#1e684f">submitted_at TIMESTAMP</text>
+<line x1="3304" y1="2277" x2="3816" y2="2277" stroke="#cbdad1" stroke-width="1"/>
+<text x="3308" y="2300" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="normal" fill="#5d7166">one per complaint; rating 1..5</text>
+<text x="90" y="2770" font-family="Arial, Helvetica, sans-serif" font-size="20px" font-weight="normal" fill="#5d7166">Relationships are shown child/FK -&gt; parent/PK. 1:N means one parent row can be referenced by many child rows.</text>
+<text x="90" y="2805" font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="normal" fill="#5d7166">Optional relationships use 0..1. See the companion database reference PDF for full constraints, procedures, triggers, and view definitions.</text>
+</svg>

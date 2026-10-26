@@ -2573,19 +2573,32 @@ function Administration() {
         title="Administration"
         subtitle="Keep people, spaces, and services organised in one place."
         action={
-          <Button onClick={() => setEditing({ isNew: true })}>
-            <Plus size={17} />
-            Add{' '}
-            {resource === 'users'
-              ? 'person'
-              : resource === 'types'
-                ? 'room type'
-                : resource === 'categories'
-                  ? 'category'
-                  : resource === 'blocks'
-                    ? 'block'
-                    : 'room'}
-          </Button>
+          <div className="button-row">
+            <Button onClick={() => setEditing({ isNew: true })}>
+              <Plus size={17} />
+              Add{' '}
+              {resource === 'users'
+                ? 'person'
+                : resource === 'types'
+                  ? 'room type'
+                  : resource === 'categories'
+                    ? 'category'
+                    : resource === 'blocks'
+                      ? 'block'
+                      : 'room'}
+            </Button>
+            {resource === 'users' && (
+              <Button
+                variant="secondary"
+                onClick={() =>
+                  setEditing({ isNew: true, role: 'STUDENT', lockRole: true })
+                }
+              >
+                <Plus size={17} />
+                Add student
+              </Button>
+            )}
+          </div>
         }
       />
       <section className="panel">
@@ -2778,7 +2791,6 @@ const resourceDefaults = {
     department: '',
     year_of_study: 1,
     guardian_name: '',
-    guardian_phone: '',
     designation: 'Warden',
     office_room: '',
     category_id: '',
@@ -2865,7 +2877,6 @@ function AdminForm({ resource, existing, onClose }) {
           'department',
           'year_of_study',
           'guardian_name',
-          'guardian_phone',
         ])
           delete body[k];
       if (d.role !== 'WARDEN')
@@ -2892,8 +2903,16 @@ function AdminForm({ resource, existing, onClose }) {
   return (
     <Modal
       wide
-      title={`${isNew ? 'Add' : 'Edit'} ${resource === 'users' ? 'person' : resource === 'types' ? 'room type' : resource === 'categories' ? 'category' : resource === 'blocks' ? 'hostel block' : 'room'}`}
-      subtitle="Keep your campus details accurate and up to date."
+      title={
+        existing.lockRole
+          ? 'Add student'
+          : `${isNew ? 'Add' : 'Edit'} ${resource === 'users' ? 'person' : resource === 'types' ? 'room type' : resource === 'categories' ? 'category' : resource === 'blocks' ? 'hostel block' : 'room'}`
+      }
+      subtitle={
+        existing.lockRole
+          ? 'Create a student account with registration and academic details.'
+          : 'Keep your campus details accurate and up to date.'
+      }
       onClose={onClose}
     >
       <Resource state={meta}>
@@ -2914,7 +2933,7 @@ function AdminForm({ resource, existing, onClose }) {
                     'role',
                     'Role',
                     ['STUDENT', 'WARDEN', 'STAFF', 'ADMIN'],
-                    { disabled: !isNew },
+                    { disabled: !isNew || existing.lockRole },
                   )}
                   {input(
                     'password',
@@ -2951,9 +2970,6 @@ function AdminForm({ resource, existing, onClose }) {
                       })}
                       {input('guardian_name', 'Guardian name', 'text', {
                         maxLength: 100,
-                      })}
-                      {input('guardian_phone', 'Guardian phone', 'tel', {
-                        maxLength: 15,
                       })}
                     </>
                   )}

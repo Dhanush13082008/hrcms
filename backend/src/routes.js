@@ -49,9 +49,10 @@ api.get('/profile', async (req, res) => {
   );
   let details = {};
   if (req.user.role === 'STUDENT')
-    [details] = await rows('SELECT * FROM student WHERE student_id=?', [
-      req.user.user_id,
-    ]);
+    [details] = await rows(
+      'SELECT student_id,reg_no,gender,department,year_of_study,guardian_name FROM student WHERE student_id=?',
+      [req.user.user_id],
+    );
   if (req.user.role === 'WARDEN')
     [details] = await rows(
       'SELECT w.*,b.block_name FROM warden w LEFT JOIN hostel_block b ON b.warden_id=w.warden_id WHERE w.warden_id=?',

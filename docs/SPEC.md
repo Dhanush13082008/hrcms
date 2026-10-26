@@ -6,7 +6,7 @@ A responsive hostel management application based on HRCMS_Project_Report.pdf.
 
 - React + Vite frontend
 - Express REST API, JWT sessions, bcrypt hashes
-- MySQL 8.4 database only (13 tables, 4 views, 6 triggers, 5 procedures)
+- MySQL 8.4 database only (13 tables, 4 views, 15 triggers, 5 procedures)
 - Local execution; no alternative database or simulated persistence
 
 ## Roles

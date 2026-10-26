@@ -112,7 +112,6 @@ export const schemas = {
     department: optionalText(60),
     year_of_study: z.coerce.number().int().min(1).max(5).optional(),
     guardian_name: optionalText(100),
-    guardian_phone: optionalText(15),
     designation: optionalText(50),
     office_room: optionalText(20),
     category_id: id.optional(),

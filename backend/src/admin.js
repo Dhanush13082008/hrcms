@@ -12,7 +12,7 @@ const resources = {
   users: { table: 'users', key: 'user_id' },
 };
 const userSelect = `SELECT u.user_id,u.full_name,u.email,u.role,u.is_active,u.created_at,
- s.reg_no,s.gender,s.department,s.year_of_study,s.guardian_name,s.guardian_phone,
+ s.reg_no,s.gender,s.department,s.year_of_study,s.guardian_name,
  w.designation,w.office_room,m.category_id,m.block_id,m.shift,
  (SELECT MIN(phone_no) FROM user_phone p WHERE p.user_id=u.user_id) AS phone_no
  FROM users u LEFT JOIN student s ON s.student_id=u.user_id LEFT JOIN warden w ON w.warden_id=u.user_id LEFT JOIN maintenance_staff m ON m.staff_id=u.user_id`;
@@ -81,15 +81,19 @@ async function writeSubclass(id, d, conn, create) {
       d.department,
       d.year_of_study,
       d.guardian_name || null,
-      d.guardian_phone || null,
     ];
-    await rows(
-      create
-        ? 'INSERT INTO student(reg_no,gender,department,year_of_study,guardian_name,guardian_phone,student_id) VALUES(?,?,?,?,?,?,?)'
-        : 'UPDATE student SET reg_no=?,gender=?,department=?,year_of_study=?,guardian_name=?,guardian_phone=? WHERE student_id=?',
-      [...values, id],
-      conn,
-    );
+    if (create)
+      await rows(
+        'INSERT INTO student(reg_no,gender,department,year_of_study,guardian_name,student_id) VALUES(?,?,?,?,?,?)',
+        [...values, id],
+        conn,
+      );
+    else
+      await rows(
+        'UPDATE student SET reg_no=?,gender=?,department=?,year_of_study=?,guardian_name=? WHERE student_id=?',
+        [...values, id],
+        conn,
+      );
   }
   if (d.role === 'WARDEN')
     await rows(

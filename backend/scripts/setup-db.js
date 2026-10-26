@@ -42,7 +42,11 @@ export async function setupDatabase(name = config.db.database) {
       throw new Error(
         `Database ${name} already contains tables; setup stopped without changing them. Choose a new DB_NAME.`,
       );
-    for (const file of ['01_schema.sql', '02_logic.sql']) {
+    for (const file of [
+      '01_schema.sql',
+      '02_logic.sql',
+      '03_integrity_guards.sql',
+    ]) {
       const source = await readFile(
         new URL(`../../database/${file}`, import.meta.url),
         'utf8',
@@ -70,7 +74,7 @@ export async function setupDatabase(name = config.db.database) {
       }
     }
     console.log(
-      `Created ${name}: 13 tables, 4 views, 6 triggers, 5 procedures.`,
+      `Created ${name}: 13 tables, 4 views, 15 triggers, 5 procedures.`,
     );
   } finally {
     await conn.end();
